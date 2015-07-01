@@ -51,60 +51,60 @@ use RuntimeException;
  */
 class E4xx_JsonTablesExceptionTest extends PHPUnit_Framework_TestCase
 {
-	/**
-	 * @coversNone
-	 */
-	public function testCanInstantiate()
-	{
-	    // ----------------------------------------------------------------
-	    // setup your test
+    /**
+     * @coversNone
+     */
+    public function testCanInstantiate()
+    {
+        // ----------------------------------------------------------------
+        // setup your test
 
-	    // ----------------------------------------------------------------
-	    // perform the change
+        // ----------------------------------------------------------------
+        // perform the change
 
-	    $obj = new E4xx_JsonTablesException(400, 'hello, world');
+        $obj = new E4xx_JsonTablesException(400, 'hello, world');
 
-	    // ----------------------------------------------------------------
-	    // test the results
+        // ----------------------------------------------------------------
+        // test the results
 
-	    $this->assertTrue($obj instanceof E4xx_JsonTablesException);
-	}
+        $this->assertTrue($obj instanceof E4xx_JsonTablesException);
+    }
 
-	/**
-	 * @coversNone
-	 */
-	public function testIsAnExxx_JsonTablesException()
-	{
-	    // ----------------------------------------------------------------
-	    // setup your test
+    /**
+     * @coversNone
+     */
+    public function testIsAnExxx_JsonTablesException()
+    {
+        // ----------------------------------------------------------------
+        // setup your test
 
-	    // ----------------------------------------------------------------
-	    // perform the change
+        // ----------------------------------------------------------------
+        // perform the change
 
-	    $obj = new E4xx_JsonTablesException(400, 'hello, world');
+        $obj = new E4xx_JsonTablesException(400, 'hello, world');
 
-	    // ----------------------------------------------------------------
-	    // test the results
+        // ----------------------------------------------------------------
+        // test the results
 
-	    $this->assertTrue($obj instanceof Exxx_JsonTablesException);
-	}
+        $this->assertTrue($obj instanceof Exxx_JsonTablesException);
+    }
 
-	/**
-	 * @coversNone
-	 */
-	public function testIsARuntimeException()
-	{
-	    // ----------------------------------------------------------------
-	    // setup your test
+    /**
+     * @coversNone
+     */
+    public function testIsARuntimeException()
+    {
+        // ----------------------------------------------------------------
+        // setup your test
 
-	    // ----------------------------------------------------------------
-	    // perform the change
+        // ----------------------------------------------------------------
+        // perform the change
 
-	    $obj = new E4xx_JsonTablesException(400, 'hello, world');
+        $obj = new E4xx_JsonTablesException(400, 'hello, world');
 
-	    // ----------------------------------------------------------------
-	    // test the results
+        // ----------------------------------------------------------------
+        // test the results
 
-	    $this->assertTrue($obj instanceof RuntimeException);
-	}
+        $this->assertTrue($obj instanceof RuntimeException);
+    }
 }

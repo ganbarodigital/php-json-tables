@@ -51,41 +51,41 @@ use RuntimeException;
  */
 class Exxx_JsonTablesExceptionTest extends PHPUnit_Framework_TestCase
 {
-	/**
-	 * @covers ::__construct
-	 */
-	public function testCanInstantiate()
-	{
-	    // ----------------------------------------------------------------
-	    // setup your test
+    /**
+     * @covers ::__construct
+     */
+    public function testCanInstantiate()
+    {
+        // ----------------------------------------------------------------
+        // setup your test
 
-	    // ----------------------------------------------------------------
-	    // perform the change
+        // ----------------------------------------------------------------
+        // perform the change
 
-	    $obj = new Exxx_JsonTablesException(400, 'hello, world');
+        $obj = new Exxx_JsonTablesException(400, 'hello, world');
 
-	    // ----------------------------------------------------------------
-	    // test the results
+        // ----------------------------------------------------------------
+        // test the results
 
-	    $this->assertTrue($obj instanceof Exxx_JsonTablesException);
-	}
+        $this->assertTrue($obj instanceof Exxx_JsonTablesException);
+    }
 
-	/**
-	 * @covers ::__construct
-	 */
-	public function testIsARuntimeException()
-	{
-	    // ----------------------------------------------------------------
-	    // setup your test
+    /**
+     * @covers ::__construct
+     */
+    public function testIsARuntimeException()
+    {
+        // ----------------------------------------------------------------
+        // setup your test
 
-	    // ----------------------------------------------------------------
-	    // perform the change
+        // ----------------------------------------------------------------
+        // perform the change
 
-	    $obj = new Exxx_JsonTablesException(400, 'hello, world');
+        $obj = new Exxx_JsonTablesException(400, 'hello, world');
 
-	    // ----------------------------------------------------------------
-	    // test the results
+        // ----------------------------------------------------------------
+        // test the results
 
-	    $this->assertTrue($obj instanceof RuntimeException);
-	}
+        $this->assertTrue($obj instanceof RuntimeException);
+    }
 }
